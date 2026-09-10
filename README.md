@@ -6,7 +6,7 @@
 
 저가 센서와 비지도 학습을 결합한 실시간 설비 이상 탐지 시스템
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](sonic-expert-repo/LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![React 18](https://img.shields.io/badge/React-18-61DAFB.svg?logo=react&logoColor=white)](https://react.dev/)
 [![Firebase](https://img.shields.io/badge/Firebase-RTDB-FFCA28.svg?logo=firebase&logoColor=black)](https://firebase.google.com/)
@@ -49,7 +49,7 @@ Arduino  ──Serial──▶  Python Engine  ──Write──▶  Firebase RT
 | **Client** | 모니터링, 모드 제어, 릴레이 원격 제어 | React, Vite |
 
 <div align="center">
-<img src="docs/images/flowchart.png" width="720" alt="System flowchart"/>
+<img src="sonic-expert-repo/docs/images/flowchart.png" width="720" alt="System flowchart"/>
 </div>
 
 ---
@@ -63,7 +63,7 @@ Arduino  ──Serial──▶  Python Engine  ──Write──▶  Firebase RT
 ```
 
 <div align="center">
-<img src="docs/images/preprocessing.png" width="720" alt="Preprocessing pipeline"/>
+<img src="sonic-expert-repo/docs/images/preprocessing.png" width="720" alt="Preprocessing pipeline"/>
 </div>
 
 ### 이중 판별 · AND 결합
@@ -92,7 +92,7 @@ Isolation Forest는 데이터 간 거리를 계산하지 않고 무작위 분할
 ## 하드웨어
 
 <div align="center">
-<img src="docs/images/hardware.png" width="720" alt="Hardware configuration"/>
+<img src="sonic-expert-repo/docs/images/hardware.png" width="720" alt="Hardware configuration"/>
 </div>
 
 | 부품 | 역할 | 인터페이스 | 단가(KRW) |
@@ -111,14 +111,14 @@ Isolation Forest는 데이터 간 거리를 계산하지 않고 무작위 분할
 | `D7` | Relay IN |
 | `D10` / `D11` | Mode indicator LED |
 
-전체 명세는 [`docs/BOM.txt`](docs/BOM.txt) 참고.
+전체 명세는 [`docs/BOM.txt`](sonic-expert-repo/docs/BOM.txt) 참고.
 
 ---
 
 ## 웹 대시보드
 
 <div align="center">
-<img src="docs/images/webapp_ui.png" width="720" alt="Web dashboard"/>
+<img src="sonic-expert-repo/docs/images/webapp_ui.png" width="720" alt="Web dashboard"/>
 </div>
 
 - 학습(TRAIN) / 탐지(DETECT) 모드 전환
@@ -264,4 +264,4 @@ python inference_engine.py --demo
 
 ## License
 
-Distributed under the MIT License. See [`LICENSE`](LICENSE) for details.
+Distributed under the MIT License. See [`LICENSE`](sonic-expert-repo/LICENSE) for details.
